@@ -37,12 +37,22 @@ func main() {
 
 	var myBoolean bool = true;
 	fmt.Println(myBoolean);
-
-	var trail = "helloji";  //here we did not explicitly write string after the naming of the var
-	fmt.Println(trail);
 	
     var intNum1 int;
 	fmt.Println(intNum1);//0    ///intitial value in golang is 0; java gives error doing this.; undefined in js ;python also gives error doing this
+	
+	
+	var trail = "helloji";  //here we did not explicitly write string after the naming of the var
+	fmt.Println(trail);
 
+
+	trail1 :="helloji" /// here we can also drop even the var word if we use := shorthand	
+    fmt.Println(trail1)
+
+	var1,var2 := 1,2;  //can be declared this way
+    
+	//myVar := foo();  // can also do this but it's better to explcitly type the type of variable here as a good practice
+
+	const MyConst = "hello ji"  //this language also have const and it cannot be changed later // also you can't use := with constant in go , it's only allowed in var
 
 }
