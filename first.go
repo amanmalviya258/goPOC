@@ -49,7 +49,7 @@ func main() {
 	trail1 :="helloji" /// here we can also drop even the var word if we use := shorthand	
     fmt.Println(trail1)
 
-	var1,var2 := 1,2;  //can be declared this way
+	/// var1,var2 := 1,2;  //can be declared this way
     
 	//myVar := foo();  // can also do this but it's better to explcitly type the type of variable here as a good practice
 
